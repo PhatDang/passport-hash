@@ -3,8 +3,6 @@
   "version": "0.6.1",
   "description": "Hash authentication strategy for Passport. with Express 4.x parsing",
   "author": {
-    "name": "Martin Romañuk",
-    "email": "mromanuk@me.com",
     "name": "Yuri Karadzhov",
     "email": "yuri.karadzhov@gmail.com",
     "url": "http://skwibl.com/"
@@ -26,11 +24,15 @@
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 0.6.0" },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "keywords": [
     "passport",
     "hash",
